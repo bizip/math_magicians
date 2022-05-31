@@ -44,11 +44,10 @@
 #output {
   display: flex;
   flex-direction: row-reverse;
-
 }
 
-.white{
-    color: white;
-    font-weight: 700;
-    font-size: 4rem;
+.white {
+  color: white;
+  font-weight: 700;
+  font-size: 4rem;
 }
