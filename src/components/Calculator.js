@@ -12,7 +12,7 @@ class Calculator extends React.Component {
   render() {
     return (
       <div className={classes.calc__grid}>
-        <div className={`${classes.calc__btn} ${classes.btn__1} ${classes.gray}`}><h1 id="output">0</h1></div>
+        <div className={`${classes.calc__btn} ${classes.btn__1} ${classes.gray}`}><h1 id="output" className={classes.white}>0</h1></div>
         <div className={classes.calc__btn}><h1>AC</h1></div>
 
         <div className={classes.calc__btn}><h1>+/-</h1></div>

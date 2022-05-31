@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 0.3rem;
+  background-color: rgb(185, 182, 182);
 }
 
 .calc__btn {
@@ -43,4 +44,11 @@
 #output {
   display: flex;
   flex-direction: row-reverse;
+
+}
+
+.white{
+    color: white;
+    font-weight: 700;
+    font-size: 4rem;
 }
