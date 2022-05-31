@@ -1,0 +1,43 @@
+.calc__grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: .3rem;
+    
+}
+.calc__btn:not(:first-child){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calc__btn:first-child{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    padding-right: 4rem;
+}
+.calc__btn{
+    background-color: silver;
+    height: 10rem;
+
+}
+
+.btn__1{
+    grid-column: 1/-1;
+   align-self: flex-end;
+}
+.gray{
+    background-color: gray;
+    align-self: flex-end;
+}
+.chockolate{
+    background-color: chocolate;
+}
+.zero{
+    grid-column: 1 / 3;
+
+}
+#output{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
