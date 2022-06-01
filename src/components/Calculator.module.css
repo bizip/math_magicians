@@ -7,7 +7,7 @@
 
 .calc__btn {
   background-color: silver;
-  height: 10rem;
+  height: 7rem;
 }
 
 .calc__btn:not(:first-child) {
