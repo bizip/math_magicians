@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from './Calculator.module.css';
 import calculate from './logic/calculate';
-// import operate from './logic/operate';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -52,9 +51,9 @@ class Calculator extends React.Component {
           <button
             type="button"
             onClick={this.handleClick}
-            value="%"
+            value="/"
           >
-            %
+            /
           </button>
         </div>
         <div className={classes.calc__btn}>
