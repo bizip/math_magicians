@@ -1,24 +1,38 @@
 import React from 'react';
 import classes from './Calculator.module.css';
-// import calculate from './logic/calculate';
+import calculate from './logic/calculate';
 // import operate from './logic/operate';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick = (e) => {
-    console.log(e.target.value);
+    this.setState((curentSate) => calculate({
+      total: curentSate.total,
+      next: curentSate.next,
+      operation: curentSate.operation,
+    }, e.target.value));
   };
 
   render() {
-    // const { name } = this.state;
-    // console.log(name);
+    const { total, next, operation } = this.state;
     return (
       <div className={classes.calc__grid}>
-        <div className={`${classes.calc__btn} ${classes.btn__1} ${classes.gray}`}><h1 id="output" className={classes.white}>0</h1></div>
+        <div className={`${classes.calc__btn} ${classes.btn__1} ${classes.gray}`}>
+          <h1 id="output" className={classes.white}>
+            {total || ''}
+            {operation || ''}
+            {next || ''}
+          </h1>
+        </div>
         <div className={classes.calc__btn}>
           <button
             type="button"
@@ -74,7 +88,7 @@ class Calculator extends React.Component {
           <button
             type="button"
             onClick={this.handleClick}
-            value="*"
+            value="x"
           >
             *
           </button>
@@ -107,7 +121,15 @@ class Calculator extends React.Component {
           </button>
         </div>
 
-        <div className={`${classes.calc__btn} ${classes.chockolate}`}><h1>-</h1></div>
+        <div className={`${classes.calc__btn} ${classes.chockolate}`}>
+          <button
+            type="button"
+            onClick={this.handleClick}
+            value="-"
+          >
+            -
+          </button>
+        </div>
         <div className={classes.calc__btn}>
           <button
             type="button"
@@ -135,7 +157,15 @@ class Calculator extends React.Component {
             3
           </button>
         </div>
-        <div className={`${classes.calc__btn} ${classes.chockolate}`}><h1>+</h1></div>
+        <div className={`${classes.calc__btn} ${classes.chockolate}`}>
+          <button
+            type="button"
+            onClick={this.handleClick}
+            value="+"
+          >
+            +
+          </button>
+        </div>
         <div className={`${classes.calc__btn} ${classes.zero}`}>
           <button
             type="button"
@@ -146,9 +176,25 @@ class Calculator extends React.Component {
           </button>
         </div>
 
-        <div className={classes.calc__btn}><button type="button">.</button></div>
+        <div className={classes.calc__btn}>
+          <button
+            type="button"
+            onClick={this.handleClick}
+            value="."
+          >
+            .
+          </button>
+        </div>
 
-        <div className={`${classes.calc__btn} ${classes.chockolate}`}><button type="button">=</button></div>
+        <div className={`${classes.calc__btn} ${classes.chockolate}`}>
+          <button
+            type="button"
+            onClick={this.handleClick}
+            value="="
+          >
+            =
+          </button>
+        </div>
 
       </div>
     );
