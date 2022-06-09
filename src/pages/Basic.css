@@ -1,48 +1,46 @@
 .home {
-    padding: 3rem 4rem;
-    font-size: 2rem;
-
+  padding: 3rem 4rem;
+  font-size: 2rem;
 }
 
 .home p {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 .quote {
-    font-size: 2rem;
-
+  font-size: 2rem;
 }
 
 .quote p {
-    position: absolute;
-    width: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .author {
-    font-weight: bold;
-    font-style: oblique;
+  font-weight: bold;
+  font-style: oblique;
 }
 
 .author::before {
-    content: "_";
-    color: black;
-    margin-left: 1rem;
+  content: "_";
+  color: black;
+  margin-left: 1rem;
 }
 
 .calc {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
 
 .welcome {
-    font-size: 2.5rem;
-    display: flex;
-    justify-content: center;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
 }
 
 .calculator {
-    padding: 2rem 4rem 2rem 0;
+  padding: 2rem 4rem 2rem 0;
 }
