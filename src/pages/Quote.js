@@ -1,10 +1,8 @@
 import React from 'react';
-import NavBar from '../layouts/NavBar';
 import './Basic.css';
 
 const Quote = () => (
   <div>
-    <NavBar />
     <section className="quote">
       <p>
         Bacon ipsum dolor amet venison spare ribs biltong, turducken kevin shank tenderloin.

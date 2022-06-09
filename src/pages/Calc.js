@@ -1,10 +1,8 @@
 import React from 'react';
-import NavBar from '../layouts/NavBar';
 import Calculator from '../components/Calculator';
 
 const Calc = () => (
   <div>
-    <NavBar />
     <section className="calc">
       <div className="welcome">
         {' '}
