@@ -1,0 +1,33 @@
+.home {
+    padding: 3rem 4rem;
+    font-size: 2rem;
+
+}
+
+.home p {
+    padding: 2rem 0;
+}
+
+.quote {
+    font-size: 2rem;
+
+}
+
+.quote p {
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.author {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.author::before {
+    content: "_";
+    color: black;
+    margin-left: 1rem;
+}
