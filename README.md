@@ -24,7 +24,7 @@ You need to have a basic knowledge about HTML and CSS
 ### Link to the live version
 
 - [Heroku](https://math-magicianspascal.herokuapp.com/)
-- [Netfly](https://62a300a2d4616f05ae77c98c--astounding-donut-e9364b.netlify.app/Calculator)
+- [Netfly](https://62a300a2d4616f05ae77c98c--astounding-donut-e9364b.netlify.app)
 
 #### Run npm install
 
