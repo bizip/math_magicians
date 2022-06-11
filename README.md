@@ -21,7 +21,10 @@ You need to have a basic knowledge about HTML and CSS
 
 #### clone this project (using git clone https://github.com/bizip/math_magicians.git) to your local computer and use telminal to navigate into the parent directory of this project.
 
-### Install
+### Link to the live version
+
+- [Heroku](https://math-magicianspascal.herokuapp.com/)
+- [Netfly](https://62a300a2d4616f05ae77c98c--astounding-donut-e9364b.netlify.app/Calculator)
 
 #### Run npm install
 
