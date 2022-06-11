@@ -1,10 +1,8 @@
 import React from 'react';
-import NavBar from '../layouts/NavBar';
 import './Basic.css';
 
 const Home = () => (
   <div>
-    <NavBar />
     <section className="home">
       <h1>Welcome to ourPage</h1>
       <p>

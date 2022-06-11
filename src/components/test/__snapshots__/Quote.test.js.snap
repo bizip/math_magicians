@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for Q It should render calculator component 1`] = `
+<div>
+  <section
+    className="quote"
+  >
+    <p>
+      Bacon ipsum dolor amet venison spare ribs biltong, turducken kevin shank tenderloin. Leberkas beef ribs pork, meatloaf shank drumstick pork loin. Filet mignon spare ribs corned beef beef chicken bresaola strip steak pig turducken venison shoulder t-bone biltong. Pig chislic strip steak, andouille spare ribs
+      <span
+        className="author"
+      >
+        Bizimungu Pascal
+      </span>
+    </p>
+  </section>
+</div>
+`;
+
+exports[`Test for all component It should render calculator component 1`] = `
+<div>
+  <section
+    className="quote"
+  >
+    <p>
+      Bacon ipsum dolor amet venison spare ribs biltong, turducken kevin shank tenderloin. Leberkas beef ribs pork, meatloaf shank drumstick pork loin. Filet mignon spare ribs corned beef beef chicken bresaola strip steak pig turducken venison shoulder t-bone biltong. Pig chislic strip steak, andouille spare ribs
+      <span
+        className="author"
+      >
+        Bizimungu Pascal
+      </span>
+    </p>
+  </section>
+</div>
+`;
+
+exports[`Test for quote page It should render quote component 1`] = `
+<div>
+  <section
+    className="quote"
+  >
+    <p>
+      Bacon ipsum dolor amet venison spare ribs biltong, turducken kevin shank tenderloin. Leberkas beef ribs pork, meatloaf shank drumstick pork loin. Filet mignon spare ribs corned beef beef chicken bresaola strip steak pig turducken venison shoulder t-bone biltong. Pig chislic strip steak, andouille spare ribs
+      <span
+        className="author"
+      >
+        Bizimungu Pascal
+      </span>
+    </p>
+  </section>
+</div>
+`;
